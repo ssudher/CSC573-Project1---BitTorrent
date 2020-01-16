@@ -1,0 +1,4 @@
+GET Get_RFC_Index PP/DI_1.0_LTS
+Hostname: <hostname>
+Port: <port>
+OS: Linux_16.0.4
