@@ -101,7 +101,7 @@ data
 * where the *data* field contains the RFC index or RFC document text file, depending on the request message.
 
 ## Typical Sequence of Messages
-<INSERT IMAGE>
+# INSERT IMAGE
 * Figure 1 depicts the steps required for Peer A to register with the RS and download an RFC from Peer B. Before it joins the system, A first instantiates an RFC server listening to a local port in the range 65400-65500.
   1) In Step 1, Peer A registers with the RS, provides the local port number for its RFC server, and receives a cookie (if this is not the first time that Peer A registers with the RS, then it provides the cookie it received earlier in its Register message). 
   2) The RS updates A’s record to active and initializes the corresponding TTL value; if this was the first time A registered, then the RS creates a new peer record for A and adds it to its peer index. 
