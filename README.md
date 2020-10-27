@@ -9,6 +9,8 @@
   * creating and managing a distributed index among multiple peers, and
   * implementing a concurrent server that is capable of carrying out communication with multiple clients simultaneously.
 
+#### The [data](https://github.com/ssudher/BitTorrent_/tree/master/data) collected from this project is included in the repository. 
+
 ## Design and Implementation:
 ### Peer-to-Peer with Distributed Index (P2P-DI) System for Downloading RFCs
 * Internet protocol standards are defined in documents called “Requests for Comments” (RFCs). RFCs are available for download from the IETF web site (http://www.ietf.org/).
