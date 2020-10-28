@@ -64,7 +64,7 @@ The protocol for peers to communicate with the RS and among themselves. In parti
   1. ***Register***: the peer opens a TCP connection to send this registration message to the RS and provide information about the port to which its RFC server listens.
   2. ***Leave***: when the peer decides to leave the system (i.e., become inactive), it opens a TCP connection to send this message to the RS.
   3. ***PQuery***: when a peer wishes to download a query, it first sends this query message to the RS (by opening a new TCP connection), and in response it receives a list of active peers that includes the hostname and RFC server port information.
-  4. ***KeepAlive***: a peer periodically sends this message to the RS to let it know that it continues to be active; upon receipt of this message, the RS resets the TTL value for this peer to 7200.
+  4. ***KeepAlive***: a peer periodically sends this message to the RS to let it know that it continues to be active; upon receipt of this message, the RS resets the TTL value for this peer to 7200
 
 ### For peer-to-peer communication:
 1. ***RFCQuery***: a peer requests the RFC index from a remote peer.
